@@ -7,6 +7,10 @@ namespace AS_Orientacao_Objetos.Domain.Entities
 {
     public class UserBooks
     {
+        //Id da "relação"
+        //permitindo, possivelmente, que o usuário retire o mesmo
+        //livro mais de uma vez
+        public int Id { get; set; }
         //UserBooks é uma tabela "retirada", que controla
         //Quem tirou qual(is) livro(s) e quando.
         public int UserId { get; set; }

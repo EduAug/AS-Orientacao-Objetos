@@ -10,7 +10,7 @@ namespace AS_Orientacao_Objetos.Data.Types
         {
             builder.ToTable("user_books");
 
-            builder.HasKey(k=>new {k.UserId, k.BookId});
+            builder.HasKey(k=>k.Id);
 
             builder.Property(j=>j.RentalDate)
             .HasColumnName("rental_date")
