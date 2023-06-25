@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AS-Orientacao-Objetos.props" />
+</Project>
